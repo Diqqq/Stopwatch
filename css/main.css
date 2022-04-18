@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e9e9e9;
+}
+
+.wrapper {
+  width: 600px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200px;
+  color: #fff;
+  background-color: #00ba40;
+  text-transform: uppercase;
+}
+
+.top p {
+  margin-top: 10px;
+}
+
+.bottom {
+  padding: 40px 20px;
+}
+
+.bottom label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.bottom input, .bottom select {
+  margin-bottom: 25px;
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #b9b9b9;
+}
+
+.bottom .count {
+  display: block;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 60%;
+  font-size: 24px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #00ba40;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.bottom .count:hover {
+  background-color: #00a83b;
+}
+
+.bottom .cost-info {
+  display: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.bottom .cost-info .cost {
+  font-weight: bold;
+}
+
+.bottom .error {
+  font-size: 18px;
+  color: #c73f1d;
+  text-align: center;
+}
+
+.test {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
