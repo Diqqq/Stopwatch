@@ -17,29 +17,20 @@
 
     <div class="wrapper">
 
-        <div class="top">
-            <h1>BillSplitter</h1>
-            <p>Podziel sięracunkiem ze znajomymi!</p>
+        <div class="info">
+            <h1>Magic 8Ball</h1>
+            <p>Zadaj pytanie, kliknij bilę i poznaj prawdę!</p>
         </div>
-        <div class="bottom">
-            <label for="price">Kwota do zapłaty:</label>
-            <input type="number" id="price" class="price">
 
-            <label for="people">Ilość osob:</label>
-            <input type="number" id="people" class="people">
+        <div class="ball-img">
+            <img src="https://cdn.pixabay.com/photo/2012/04/16/11/05/ball-35516_960_720.png" alt="Bila numer 8">
+        </div>
 
-            <label for="tip">Napiwek:</label>
-            <select id="tip" class="tip">
-                <option value="0" disabled selected>- wybierz napiwek -</option>
-                <option value="0.05">5%</option>
-                <option value="0.1">10%</option>
-                <option value="0.15">15%</option>
-                <option value="0.2">20%</option>
-            </select>
-
-            <button class="count">Oblicz</button>
+        <div class="question-area">
+            <h2>Zadaj pytanie:</h2>
+            <input type="text">
+            <p class="answer"></p>
             <p class="error"></p>
-            <p class="cost-info">Powinniście się złożyć po <span class="cost"></span>zł!</p>
         </div>
 
     </div>
